@@ -1,0 +1,19 @@
+.layout {
+    color: var(--txt-color);
+}
+
+.layout__content {
+    padding-left: var(--sidebar-width);
+    background-color: var(--second-bg);
+    min-height: 100vh;
+}
+
+.layout__content-main {
+    padding: 30px;
+}
+.layout__content .ant-table-cell {
+    text-align: center;
+}
+.layout__content th {
+    text-align: center !important;
+}

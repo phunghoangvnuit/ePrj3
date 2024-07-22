@@ -1,0 +1,113 @@
+#comment-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+}
+
+/*.comment-container h2 {*/
+/*  font-size: 24px;*/
+/*  margin-bottom: 20px;*/
+/*  color: #333;*/
+/*}*/
+
+/*.ant-form-item-label > label {*/
+/*  font-weight: bold;*/
+/*  color: #555;*/
+/*}*/
+
+/*.rating-star .ant-rate-star {*/
+/*  font-size: 24px; !* Tăng kích thước sao *!*/
+/*  color: #fadb14;  !* Màu vàng cho sao *!*/
+/*}*/
+
+/*.submit-button {*/
+/*  background-color: #1890ff;*/
+/*  border-color: #1890ff;*/
+/*}*/
+
+/*.submit-button:hover {*/
+/*  background-color: #40a9ff;*/
+/*  border-color: #40a9ff;*/
+/*}*/
+
+/*.submitted-comment {*/
+/*  margin-top: 20px;*/
+/*  padding: 15px;*/
+/*  background-color: #fff;*/
+/*  border: 1px solid #e8e8e8;*/
+/*  border-radius: 8px;*/
+/*  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*.submitted-comment h3 {*/
+/*  font-size: 20px;*/
+/*  margin-bottom: 10px;*/
+/*  color: #333;*/
+/*}*/
+
+/*.submitted-title {*/
+/*  font-size: 18px;*/
+/*  font-weight: bold;*/
+/*  color: #555;*/
+/*  margin-bottom: 10px;*/
+/*}*/
+
+    /*.submitted-rating {*/
+    /*  margin-bottom: 10px;*/
+    /*}*/
+
+    /*.submitted-text {*/
+    /*  font-size: 16px;*/
+    /*  color: #666;*/
+    /*}*/
+/**/
+
+.review {
+  padding: 10px 0;
+  border-bottom: 1px solid #e8e8e8;
+}.review-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }.review-name {
+    font-weight: bold;
+  }
+.review-time {
+  font-size: 12px;
+  color: #888;
+}
+
+.review-text {
+  margin-top: 10px;
+}
+/**/
+.score {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+#comment-container .ant-rate , .rating-star{
+    color: #fadb14 !important;
+    font-size: 18px;
+}
+
+.submit-button {
+    text-align: center !important;
+}
+.upload-img-commet .ant-upload {
+    width: 100% !important;
+}
+ .upload-img-commet{
+     text-align: center;
+ }
+.button-evaluate{
+    background: black;
+    color: white;
+}
+#comment-container .ant-input-group.ant-input-group-compact>*:not(:last-child):hover{
+    color: white;
+    border: 1px solid #d9d9d9;
+    background: black;
+}

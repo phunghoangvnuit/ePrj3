@@ -1,0 +1,163 @@
+.custom-arrow {
+  color: #41576c;
+  font-size: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.next-arrow {
+  margin-left: 10px;
+}
+
+
+@media (max-width: 780px) {
+  #best-seller .slick-initialized .slick-slide {
+    margin-right: 0px !important;
+  }
+  .hstack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+  }
+  .next-arrow,
+  .prev-arrow {
+    display: none !important;
+  }
+
+  .slick-dots {
+    display: block !important;
+    bottom: -55px !important;
+  }
+}
+
+#best-seller .slick-slider .slick-list {
+  height: 464px !important;
+}
+
+.slick-slide {
+  width: 304px !important;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #c48c46;
+  font-weight: 400;
+}
+
+.all-button {
+  border: 1px solid #003868;
+  color: #003868;
+  line-height: 10px;
+  padding: 10px 20px;
+  height: 30px;
+  background: none;
+  border-radius: 3px;
+  margin: 0 auto;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.diamond-card {
+  width: 292px;
+  text-align: center;
+  margin: 10px;
+}
+
+.diamond-image {
+  height: 200px;
+  object-fit: cover;
+  border-right: 0px;
+  width: 100%;
+  display: block;
+}
+
+.diamond-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.diamond-rating {
+  margin-top: 10px;
+}
+
+ .ant-rate {
+  color: #666 !important;
+  font-size: 10px;
+}
+
+#best-seller .ant-card .ant-card-cover img {
+  border-radius: 0px !important;
+  height: 300px;
+}
+
+
+#best-seller .ant-card-meta-title {
+  color: #888 !important;
+}
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.add-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.layout {
+  padding: 10px;
+}
+
+
+
+.diamond-rating {
+  margin-top: 10px;
+}
+
+
+#best-seller .slick-prev{
+  display: none !important;
+}
+#best-seller .slick-arrow {
+  display: none !important;
+}
+/**/
+.diamond-image,
+.diamond-image-hover {
+  width: 100%;
+  height: 300px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.diamond-image-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.image-wrapper:hover .diamond-image-hover {
+  opacity: 1;
+}
+
+.image-wrapper:hover .diamond-image {
+  opacity: 0;
+}

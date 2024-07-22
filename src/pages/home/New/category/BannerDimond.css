@@ -1,0 +1,16 @@
+.diamond-info {
+    padding: 2rem;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0px !important;
+}
+
+.ant-card-meta-title {
+    text-align: center;
+}
+.diamond-info .ant-card .ant-card-cover img {
+    height: 170px !important;
+}

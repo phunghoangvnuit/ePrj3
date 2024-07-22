@@ -1,0 +1,25 @@
+
+.commingsoon {
+  text-align: center;
+  margin: 20px 100px ;
+}
+
+.commingsoon-title {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.commingsoon-products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card-button{
+  margin: 0 15px;
+}
+
+.commingsoon-button {
+  display: inline-block;
+  margin-top: 20px;
+}

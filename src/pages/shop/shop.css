@@ -1,0 +1,19 @@
+#shop h1{
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.shop-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: row;
+  }
+
+.shop-card{
+    margin:5px !important;
+}
+.filter{
+    margin-top: 10%;
+}

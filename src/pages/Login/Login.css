@@ -1,0 +1,124 @@
+#login {
+  height: 100vh;
+  display: flex;
+  background-image: url("./img/login-bg.jpg");
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.left-panel {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.left-panel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right-panel {
+  background-color: rgba(0,0,0,0.9);
+  color: white;
+  width: 50%;
+  /*padding: 20px;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form-container {
+  max-width: 300px;
+  width: 100%;
+}
+
+.form-container h2 {
+ font-weight: 600;
+}
+
+.form-container h2 span {
+  color: #00bfa5;
+}
+
+#login .ant-form-item{
+ width: 300px;
+}
+
+#login .ant-form-item-required {
+  color: #FFFFFF !important;
+}
+
+#login .ant-input-group-addon {
+  color: #FFFFFF;
+}
+
+.signup-btn {
+  width: 100%;
+  padding: 10px;
+  background: #00bfa5;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-btn:hover {
+  background: #008f7a;
+}
+
+.login-link {
+  display: flex;
+  margin-top: 10px;
+  font-size: 15px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#login a {
+  color: #FFFFFF;
+}
+
+#login a p{
+  color: #FFFFFF;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+  .left-panel {
+    display: none;
+  }
+  .right-panel {
+    width: 100%;
+  }
+  #login .container{
+    width: 100%;
+  }
+}
+#login .ant-form-item .ant-form-item-label >label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before{
+  content: none;
+}
+
+.input-group label {
+  color: #555 !important;
+}
+
+.input-group input {
+  color: #333 !important;
+  background-color: #fff;
+}

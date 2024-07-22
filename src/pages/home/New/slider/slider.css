@@ -1,0 +1,59 @@
+.home-slider {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.video-background {
+  width: 100%;
+  height: auto;
+}
+
+.video-caption {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.video-caption h3 {
+  margin: 0;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.video-caption a {
+  display: inline-block;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.video-caption a::before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s, left 0.3s;
+}
+
+.video-caption a:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.video-caption p {
+  cursor: pointer;
+  margin: 0;
+  padding: 5px 0;
+  color: aliceblue;
+}
